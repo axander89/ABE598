@@ -10,12 +10,10 @@ clc
 ArmJoints = ['Jaco_joint1','Jaco_joint2','Jaco_joint3',...
              'Jaco_joint4','Jaco_joint5','Jaco_joint6'];
 p_dummies = ['Dumy00','Dummy0','Dummy1','Dummy2',...
-             'Dummy3','Dummy4','Dummy5','Dummy6'];
-% r_robot = [0.1 0.1 0.1 0.075 0.07 0.07 0.13 0.1 0.1 0.1]/2;
-r_robot = [0.12,0.12,0.10,0.10,0.10,0.10,0.10,0.12]/2;
-o_dummies = ['Dummy8','Dummy9','Dumy10','Dumy11'];
-% r_obstacle = [0.2 0.2 0.2 0.2 0.2 0.2 0.2 0.2 0.2 0.2]/2;
-r_obstacle = [0.15,0.15,0.15,0.15]/2;
+             'Dummy3','Dummy4','Dummy5','Dummy6']; % robot spheres names
+r_robot = [0.12,0.12,0.10,0.10,0.10,0.10,0.10,0.12]/2; % robot spheres radii
+o_dummies = ['Dummy8','Dummy9','Dumy10','Dumy11']; % obstacles names
+r_obstacle = [0.15,0.15,0.15,0.15]/2; % obstacles radii
 
 %====================================================================
 % Initialize session and Start Simulation
