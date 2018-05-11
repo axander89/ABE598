@@ -6,10 +6,10 @@ This is the work done for the final project for Autonomous Decision Making (ABE5
 
 ## Prerequisites
 
-1. MATLAB
+1. MATLAB:
 The code has been run in [MATLAB_R2017a](https://www.mathworks.com/downloads/), but it should be compatible with later versions. 
 
-2. V-REP
+2. V-REP:
 Download V-REP PRO EDU from the Coppelia Robotics website: [here](http://www.coppeliarobotics.com)
 
 
@@ -17,10 +17,8 @@ Download V-REP PRO EDU from the Coppelia Robotics website: [here](http://www.cop
 
 1. `$ git clone https://github.com/axander89/ABE598.git`
 2. `$ cp <vrep_directory>/vrep/programming/remoteApiBindings/lib/lib/remoteApi.dylib ./ABE598/src/code/`
-3. `$ cd /ABE598/src/code/`
-3. open another terminal and run
-4. `$ cd <vrep_directory>/vrep/`
-5. `$ ./vrep.app/Contents/MacOS/vrep`
-6. from original terminal, i.e. <ABE598_directory>/ABE598/src/code/, open and run 'ABE598_Planning_Simulation.m'
-7. watch demo 
+3. `$ cd <vrep_directory>/vrep/`
+4. `$ ./vrep.app/Contents/MacOS/vrep`
+5. from vrep open <ABE598_directory>/ABE598/src/scene/ABE598_final_path1.ttt "File -> Open scene..."
+6. from matlab open and run '<ABE598_directory>/ABE598/src/code/ABE598_Planning_Simulation.m'
 
