@@ -22,3 +22,4 @@ Download V-REP PRO EDU from the Coppelia Robotics website: [here](http://www.cop
 5. from vrep open <ABE598_directory>/ABE598/src/scene/ABE598_final_path1.ttt "File -> Open scene..."
 6. from matlab open and run '<ABE598_directory>/ABE598/src/code/ABE598_Planning_Simulation.m'
 
+[Demo](https://youtu.be/fsM06nLv8bM)
